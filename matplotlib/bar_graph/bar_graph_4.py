@@ -3,9 +3,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import os
 
-data = pd.read_excel(os.getcwd() + '\cargo_data.xls')
+data = pd.read_excel('cargo_data.xls')
 
 plt.rcParams['font.sans-serif'] = ['SimHei']
 plt.rcParams['axes.unicode_minus'] = False

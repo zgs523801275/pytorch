@@ -1,10 +1,9 @@
 # 导入第三方模块
 import pandas as pd
 import matplotlib.pyplot as plt
-import os
 
 # 读取Titanic数据集
-titanic = pd.read_csv(os.getcwd() + '\\titanic_train.csv')
+titanic = pd.read_csv('titanic_train.csv')
 
 # 检查年龄是否有缺失
 any(titanic.Age.isnull())
