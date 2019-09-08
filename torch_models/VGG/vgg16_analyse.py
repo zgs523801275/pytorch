@@ -32,10 +32,10 @@ VGG(
     (23): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
     (24): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
     (25): ReLU(inplace)
-    #层7(与vgg13相比新增卷积层):输入通道：512, 输出通道：512, 卷积核：3*3, 卷积个数：512*512
+    #层12(与vgg13相比新增卷积层):输入通道：512, 输出通道：512, 卷积核：3*3, 卷积个数：512*512
     (26): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))#add
     (27): ReLU(inplace)
-    #层7(与vgg13相比新增卷积层):输入通道：512, 输出通道：512, 卷积核：3*3, 卷积个数：512*512
+    #层13(与vgg13相比新增卷积层):输入通道：512, 输出通道：512, 卷积核：3*3, 卷积个数：512*512
     (28): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))#add
     (29): ReLU(inplace)
     (30): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
